@@ -16,7 +16,7 @@ html {
 }
 body {
   margin: 0;
-  background: #fff;
+  background: #F3F5F7;
   color: var(--ink);
   font-family: "DM Sans", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -92,8 +92,9 @@ h3 {
   white-space: nowrap;
 }
 .hero {
-  background: linear-gradient(110deg, #fff 0%, #fff 48%, #e9f4fb 100%);
+  background: linear-gradient(110deg, #F3F5F7 0%, #F3F5F7 48%, #e9f4fb 100%);
   overflow: hidden;
+  border-bottom: 1px solid #ddd;
 }
 .hero-grid {
   min-height: 555px;
@@ -180,6 +181,7 @@ h3 {
 }
 .section-pad {
   padding: 78px 0;
+  border-bottom: 1px solid #ddd;
 }
 .section-heading {
   display: flex;
@@ -295,7 +297,8 @@ h3 {
 }
 .closing {
   padding: 76px 0;
-  background: #eeeeee;
+  background: #fff;
+  overflow: hidden;
   text-align: center;
 }
 .closing-inner {
@@ -319,7 +322,7 @@ h3 {
   display: inline-block;
   margin-top: 28px;
   padding: 11px 18px;
-  border: 1px solid #cbded0;
+  border: 1px solid #F3F5F7;
   border-radius: 30px;
   color: var(--blue);
   font-size: 11px;
