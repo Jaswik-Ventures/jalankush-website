@@ -332,7 +332,7 @@ h3 {
 }
 .site-footer {
   padding: 25px 0;
-  border-top: 1px solid #edf0ef;
+  border-top: 1px solid #ddd;
 }
 .footer-inner {
   display: flex;
