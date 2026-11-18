@@ -168,7 +168,7 @@ h3 {
 .hero-visual img {
   display: block;
   width: 150%;
-  max-width: 100%;
+  max-width: 150%;
   height: auto;
   mix-blend-mode: multiply;
 }
